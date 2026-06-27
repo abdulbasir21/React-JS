@@ -1,0 +1,13 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .primary-btn {
+    @apply inline-block bg-primary text-white font-semibold rounded-lg hover:bg-secondary duration-200 shadow-[0px_10px_8px_-7px_#ff4978] hover:shadow-[0px_10px_8px_-7px_#69a79c] py-2 px-6;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
